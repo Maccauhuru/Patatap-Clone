@@ -2,7 +2,9 @@
   // Create a Paper.js Path to draw a line into it: 
   var path = new Path(); 
   //Give the stroke a color 
-  path.strokeColor = 'black'; 
+  path.strokeColor = 'red'; 
+  path.strokeWidth = 50;
+
   var start = new Point(100,100); 
   // Move to start and draw a line from there 
   path.moveTo(start); 
