@@ -37,7 +37,6 @@ function onFrame(event){
   for(var i=0;i<circles.length;i++){
     circles[i].fillColor.hue+=1;
     circles[i].scale(0.9);
-     console.log(circles[i]);
   }
 }
    
